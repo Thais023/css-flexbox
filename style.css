@@ -1,0 +1,38 @@
+.child-box{
+    /*border-color: black;
+    border-style: solid;
+    border-width: 2px;*/
+    border: #000 solid 1px;/*shorthand*/
+    width: 100px;
+    height: 100px;
+    text-align: center;   
+}
+.parent-box div:nth-child(2){
+    background-color: rgb(29, 168, 233);
+}
+
+.parent-box div:nth-child(3){
+    background-color: rgb(172, 214, 214);
+}
+
+.parent-box div:nth-child(4){
+    background-color: rgb(81, 233, 233);
+}
+
+
+.parent-box {
+    display: flex;
+    background-color: #ffdfb7;
+    padding: 40px 20px 20px 20px /*shorthand para padding-top,padding-rigth,padding-bottom, padding-left*/
+}
+
+.parent-box > p {
+
+    position: absolute;
+    margin-top: -30px;
+
+}
+#justify-content .parent-box{
+    justify-content: center;
+
+}
